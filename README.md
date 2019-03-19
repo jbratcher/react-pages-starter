@@ -1,3 +1,9 @@
+# React Starter Kit
+
+My personal React starter project featuring SASS, Font Awesome, and Github pages deploy.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
