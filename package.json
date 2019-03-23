@@ -2,7 +2,9 @@
   "name": "voter-info-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Your-Github-Username.github.io/Your-Repo-Name",
+
+  "homepage": "https://jbratcher.github.io/react-starter-kit",
+  "_comment": "https://Your-Github-Username.github.io/Your-Repo-Name",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
