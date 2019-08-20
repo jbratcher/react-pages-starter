@@ -1,20 +1,42 @@
 .App {
   width: 100vw;
   max-width: 100vw;
+  min-height: 100vh;
 }
 
 header, main, footer {
   width: inherit;
   max-width: inherit;
+  max-height: inherit;
 }
 
-header, footer {
-  min-height: 15vh;
+ul {
+  list-style: none;
 }
 
-main {
-  display: flex;
-  align-items: center;
+.container ul {
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 20px;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 100vh;
+}
+
+.house {
+  background: linear-gradient(to top right, #d32f2f, #e57373);
+  width: 100px;
+  height: 100px;
+}
+
+.yellow {
+  background: linear-gradient(to top right, #fbc02d  , #fff176);
+}
+
+.green {
+  background: linear-gradient(to top right, #00796b, #4db6ac);
+}
+
+.red {
+  background: linear-gradient(to top right, #d32f2f, #e57373);;
 }

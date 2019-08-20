@@ -1,15 +1,14 @@
 {
-  "name": "voter-info-api",
+  "name": "life-sim",
   "version": "0.1.0",
   "private": true,
-
   "homepage": "https://jbratcher.github.io/react-starter-kit",
   "_comment": "https://Your-Github-Username.github.io/Your-Repo-Name",
   "dependencies": {
-    "node-sass": "^4.11.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
