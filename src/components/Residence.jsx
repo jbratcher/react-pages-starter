@@ -109,6 +109,7 @@ class App extends Component {
             <li 
                 className={`residence house ${worthColor}`}
             >
+            <span>{this.state.residenceWorth}</span>
             </li>
 
         );

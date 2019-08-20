@@ -23,6 +23,17 @@ ul {
   min-height: 100vh;
 }
 
+.residence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & span {
+    font-size: 1.67rem;
+  }
+
+}
+
 .house {
   background: linear-gradient(to top right, #d32f2f, #e57373);
   width: 100px;
